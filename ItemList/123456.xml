@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Qi>
   <Item id="asr1dda23ad1">
     <title>wbaidu</title>
     <url>https://www.baidu.com</url>
     <var/>
     <head/>
-    <text><![CDATA[内容{MAXW=540}:([\s\S]*)#copy#]]></text>
+    <text><![CDATA[内容{BW=100}:([\s\S]*)#copy#]]></text>
     <put>0</put>
     <type>GET</type>
     <code>自动获取</code>
@@ -17,7 +16,7 @@
     <url>https://m.baidu.com</url>
     <var/>
     <head/>
-    <text><![CDATA[内容{MAXW=540}:([\s\S]*)#copy#]]></text>
+    <text><![CDATA[内容{BW=100}:([\s\S]*)#copy#]]></text>
     <put>0</put>
     <type>GET</type>
     <code>自动获取</code>
