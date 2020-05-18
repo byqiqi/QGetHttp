@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Qi>
   <Item id="asr1dda23ad1">
-    <title>baidu</title>
+    <title>wbaidu</title>
     <url>https://www.baidu.com</url>
+    <var/>
+    <head/>
+    <text><![CDATA[内容{MAXW=540}:([\s\S]*)#copy#]]></text>
+    <put>0</put>
+    <type>GET</type>
+    <code>自动获取</code>
+    <lasttime>2019/12/26 12:00:44</lasttime>
+    <addtime>2019/12/25 11:40:39</addtime>
+  </Item>
+  <Item id="asr1d56j3ad1">
+    <title>mbaidu</title>
+    <url>https://m.baidu.com</url>
     <var/>
     <head/>
     <text><![CDATA[内容{MAXW=540}:([\s\S]*)#copy#]]></text>
