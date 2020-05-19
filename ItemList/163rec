@@ -1,0 +1,24 @@
+<Qi>
+  <Item id="4de0f0f8b2d44b2e8b2d94499c89e451">
+    <title>163推荐新闻</title>
+    <url>https://3g.163.com/touch/nc/api/user/recommend/GuessLike/(1-5)-0-10-0.do</url>
+    <var/>
+    <head/>
+    <text><![CDATA[NONE{OPEN}|标题{BW=100}
+"link":"(.*?)",.*?"title":"(.*?)",
+1:link
+2:json]]></text>
+    <open><![CDATA[code:utf-8
+style:img{display:block;max-width:96%;margin:0 auto;}video{width:100%;height:260px;}*{font-size:18px;line-height:1.8em;color:#555;}
+script:true
+html:padding=10=10=10=
+view{size=26,font=bold}:<h1.*?>(.*?)</h1>
+view{h=80,color=777777}:<span class="source js-source">([\s\S]*?)</span>
+view{webview}:<div class="content">([\s\S]*?)</article>#replace=data-src=src,replace=href=data-href#]]></open>
+    <put>1</put>
+    <type>GET</type>
+    <code>自动获取</code>
+    <lasttime>2020/05/19 17:02:08</lasttime>
+    <addtime>2020/05/19 16:23:49</addtime>
+  </Item>
+</Qi>
