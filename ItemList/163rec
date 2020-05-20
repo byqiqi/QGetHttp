@@ -9,16 +9,17 @@
 1:link
 2:json]]></text>  
     <open><![CDATA[code:utf-8
-style:img{display:block;max-width:96%;margin:0 auto;}video{width:100%;height:260px;}*{font-size:18px;line-height:1.8em;color:#555;}ol, ul, li {list-style: none;margin:0;padding:0;}
+style:img{display:block;max-width:96%;margin:0 auto;}video{width:100%;height:260px;}*{font-size:18px;line-height:1.8em;color:#555;}ol, ul, li {list-style: none;margin:0;padding:0;}table {overflow-x: auto;width: 100%;border-spacing: 0;text-align: center;border-top: 1px solid #e6e6e6;border-left: 1px solid #e6e6e6;}table p {margin: 0;padding: 0;}table td {padding: 0;border-right: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;}table th {border-color: #e9e9e9;border-right: 1px solid #343434;border-bottom: 1px solid #343434;background-color: #eeeeee;}
 script:true
 html:padding=10=10=10=
 view{size=26,font=bold}:<h1.*?>(.*?)</h1>#json#
-view{h=60,color=777777}:(2)(<span class="source js-source">|<strong class="source">)([\s\S]*?)(</span>|</strong>)
+view{w=100,h=60,color=777777}:(2)(<span class="source js-source">|<strong class="source">)([\s\S]*?)(</span>|</strong>)
+view{w=100,h=60,color=777777}:<span class="time js-time">([\s\S]*?)</span>
 view{webview}:(0)(<div class="content">|<video class="main_video"|<ul class="photo_list">)([\s\S]*?)(</article>|</video>|<div class="last-page">)#replace=data-src=src,replace=href=data-href#]]></open>  
     <put>1</put>  
     <type>GET</type>  
     <code>自动获取</code>  
-    <lasttime>2020/05/20 09:40:07</lasttime>  
+    <lasttime>2020/05/20 11:43:39</lasttime>  
     <addtime>2020/05/19 16:23:49</addtime> 
   </Item>
 </Qi>
