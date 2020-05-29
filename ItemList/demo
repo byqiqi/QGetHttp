@@ -212,4 +212,25 @@ list{IMGVIEW,MAXW=500,PADDING=10=10=10}:<img style=".*?" src="(.*?)\?imageView]]
     <last_time>2020-05-27 11:29:13</last_time>
     <add_time>2020-05-27 10:28:36</add_time>
   </Item>
+  <Item id="1c6fc1da819a4c979236ad83229b5758">
+    <title>凤凰视频</title>
+    <url>https://shankapi.ifeng.com/spring/homeStream/getHomeStream/20/(0,20,40,60,80)/0/</url>
+    <var/>
+    <head/>
+    <text><![CDATA[标题{BW=75,size=16,line=6}|NONE{open}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}
+"title": "(.*)"[\s\S]*?"url": "(.*?)"[\s\S]*?"thumbnail": "(.*?)"
+1:json
+2:json,link
+3:json,link,imgview]]></text>
+    <open><![CDATA[style:video{width:100%;height:auto;background:#000;}
+html:padding=10=10=10=10
+view{size=25,font=bold,line=6,color=333333,padding=3=6=3=6}:"title".*?"(.*?)"
+view{size=16,color=777777,line=15,padding=3=6=3=15}:"columnName".*?"(.*?)"
+view{videoview}:"mobileUrl".*?"(.*?)"]]></open>
+    <put>1</put>
+    <type>GET</type>
+    <code>UTF-8</code>
+    <last_time>2020-05-29 17:30:38</last_time>
+    <add_time>2020-05-29 16:08:41</add_time>
+  </Item>
 </Qi>
