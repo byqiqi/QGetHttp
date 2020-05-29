@@ -8,8 +8,8 @@
     <put>0</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2019/12/26 12:00:44</lasttime>
-    <addtime>2019/12/25 11:40:39</addtime>
+    <last_time>2019/12/26 12:00:44</last_time>
+    <add_time>2019/12/25 11:40:39</add_time>
   </Item>
   <Item id="asr2d56j3ad1">
     <title>mbaidu</title>
@@ -20,7 +20,7 @@
     <put>0</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020/5/16 12:00:44</lasttime>
-    <addtime>2019/12/25 11:40:39</addtime>
+    <last_time>2020/2/26 12:00:44</last_time>
+    <add_time>2019/12/25 11:40:39</add_time>
   </Item>
 </Qi>
