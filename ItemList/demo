@@ -17,8 +17,8 @@ view{webview}:(0)<div id="article-content".*?>([\s\S]*?)</div>#replace=.src=src,
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-27 15:27:14</lasttime>
-    <addtime>2020-05-27 15:02:45</addtime>
+    <last_time>2020-05-27 15:27:14</last_time>
+    <add_time>2020-05-27 15:02:45</add_time>
   </Item>
   <Item id="57d040a760d04aad9551f2cf1691ed9a">
     <title>ZOL视频</title>
@@ -39,8 +39,8 @@ view{size=18,color=333333,line=8,padding=3=15=3}:<p class="text">([\s\S]*?)</p>]
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-27 14:27:48</lasttime>
-    <addtime>2020-05-27 11:49:52</addtime>
+    <last_time>2020-05-27 14:27:48</last_time>
+    <add_time>2020-05-27 11:49:52</add_time>
   </Item>
   <Item id="1f04966750a94d089d8823921d5361b8">
     <title>ZOL壁纸</title>
@@ -56,8 +56,8 @@ list{IMGVIEW,MAXW=500,PADDING=10=10=10}:<a href=".*?"><img src="(.*?)".*?></a>#l
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-27 11:45:12</lasttime>
-    <addtime>2020-05-27 11:39:32</addtime>
+    <last_time>2020-05-27 11:45:12</last_time>
+    <add_time>2020-05-27 11:39:32</add_time>
   </Item>
   <Item id="4de0f0f8b2d44b2e8b2d94499c89e451">
     <title>163推荐新闻</title>
@@ -78,8 +78,8 @@ view{webview}:(0)(<div class="content">|<video class="main_video"|<ul class="pho
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-27 11:31:25</lasttime>
-    <addtime>2020-05-27 10:28:36</addtime>
+    <last_time>2020-05-27 11:31:25</last_time>
+    <add_time>2020-05-27 10:28:36</add_time>
   </Item>
   <Item id="da3f21b2b604489a8e7933cd526fd863">
     <title>114手机资讯</title>
@@ -99,8 +99,8 @@ view{webview}:(0)<div class="txtwarp artbody".*?>([\s\S]*?)<div class="pageBtn">
     <put>1</put>
     <type>GET</type>
     <code>GB2312</code>
-    <lasttime>2020-05-27 11:31:08</lasttime>
-    <addtime>2020-05-27 10:28:36</addtime>
+    <last_time>2020-05-27 11:31:08</last_time>
+    <add_time>2020-05-27 10:28:36</add_time>
   </Item>
   <Item id="ae78add494b64dc28ec5b46951dc34c5">
     <title>SOHU新闻</title>
@@ -121,8 +121,8 @@ view{webview}:(0)<div class="display-content">([\s\S]*?)</div>#replace=href=data
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-27 11:30:43</lasttime>
-    <addtime>2020-05-27 10:28:36</addtime>
+    <last_time>2020-05-27 11:30:43</last_time>
+    <add_time>2020-05-27 10:28:36</add_time>
   </Item>
   <Item id="621385ae2a554506a2ddf2c963d34d96">
     <title>SOHU图片</title>
@@ -139,8 +139,8 @@ page:(1-5)]]></var>
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-27 11:30:25</lasttime>
-    <addtime>2020-05-27 10:28:36</addtime>
+    <last_time>2020-05-27 11:30:25</last_time>
+    <add_time>2020-05-27 10:28:36</add_time>
   </Item>
   <Item id="fe9f4b2325f84c8da1692bcb019ec877">
     <title>SOHU视频</title>
@@ -161,8 +161,8 @@ view{webview}:<div id="videoPlayer">([\s\S]*?)</div>#replace=<div=<video,ireplac
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-27 11:30:06</lasttime>
-    <addtime>2020-05-27 10:28:36</addtime>
+    <last_time>2020-05-27 11:30:06</last_time>
+    <add_time>2020-05-27 10:28:36</add_time>
   </Item>
   <Item id="b1cfaa239ac6415599f64adef272dcb0">
     <title>蜂鸟新闻</title>
@@ -185,8 +185,8 @@ view{webview}:(2)(<article class="article font18">|<section class="videoAbstract
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-27 11:29:43</lasttime>
-    <addtime>2020-05-27 10:28:36</addtime>
+    <last_time>2020-05-27 11:29:43</last_time>
+    <add_time>2020-05-27 10:28:36</add_time>
   </Item>
   <Item id="1e3ea1cf55884a009ef371d761d5cb2b">
     <title>蜂鸟图片</title>
@@ -209,7 +209,7 @@ list{IMGVIEW,MAXW=500,PADDING=10=10=10}:<img style=".*?" src="(.*?)\?imageView]]
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-27 11:29:13</lasttime>
-    <addtime>2020-05-27 10:28:36</addtime>
+    <last_time>2020-05-27 11:29:13</last_time>
+    <add_time>2020-05-27 10:28:36</add_time>
   </Item>
 </Qi>
