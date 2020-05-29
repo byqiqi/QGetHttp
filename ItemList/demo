@@ -226,11 +226,11 @@ list{IMGVIEW,MAXW=500,PADDING=10=10=10}:<img style=".*?" src="(.*?)\?imageView]]
 html:padding=10=10=10=10
 view{size=25,font=bold,line=6,color=333333,padding=3=6=3=6}:"title".*?"(.*?)"
 view{size=16,color=777777,line=15,padding=3=6=3=15}:"columnName".*?"(.*?)"
-view{videoview}:"mobileUrl".*?"(.*?)"]]></open>
+view{videoview,play}:"mobileUrl".*?"(.*?)"]]></open>
     <put>1</put>
     <type>GET</type>
     <code>UTF-8</code>
-    <last_time>2020-05-29 17:30:38</last_time>
+    <last_time>2020-05-29 17:50:38</last_time>
     <add_time>2020-05-29 16:08:41</add_time>
   </Item>
 </Qi>
