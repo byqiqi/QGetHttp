@@ -12,8 +12,8 @@ c:513]]></var>
     <put>1</put>
     <type>GET</type>
     <code>GBK</code>
-    <lasttime>2020-05-26 14:49:29</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-26 14:49:29</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="fbesirnll2v">
     <title>360图片搜索</title>
@@ -30,8 +30,8 @@ c:513]]></var>
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-26 14:33:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-26 14:33:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="cn5pysie0jt">
     <title>爱站专题</title>
@@ -46,8 +46,8 @@ c:513]]></var>
     <put>0</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-25 20:30:08</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-25 20:30:08</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="bpad5vipkia">
     <title>蜂鸟帖子</title>
@@ -61,8 +61,8 @@ c:513]]></var>
     <put>0</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-25 20:30:02</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-25 20:30:02</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="vuxoxbcqdxq">
     <title>取名</title>
@@ -83,8 +83,8 @@ id6:]]></var>
     <put>0</put>
     <type>POST</type>
     <code>自动获取</code>
-    <lasttime>2020-05-25 20:29:51</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-25 20:29:51</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="3bmasp4komo">
     <title>蜂鸟话题</title>
@@ -96,8 +96,8 @@ id6:]]></var>
     <put>0</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-22 17:22:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-22 17:22:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="lvpq0mlbpfe">
     <title>ZOL壁纸标签</title>
@@ -109,8 +109,8 @@ id6:]]></var>
     <put>0</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-22 17:22:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-22 17:22:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="53mdqjguiyh">
     <title>ZOL壁纸图片</title>
@@ -124,8 +124,8 @@ id6:]]></var>
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-22 17:22:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-22 17:22:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="lwnscsqshqi">
     <title>ZOL下载</title>
@@ -141,8 +141,8 @@ id6:]]></var>
     <put>0</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-22 17:22:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-22 17:22:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="2pbxbdky3av">
     <title>国内排行榜</title>
@@ -155,8 +155,8 @@ id6:]]></var>
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-22 17:22:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-22 17:22:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="tujhcpmwodm">
     <title>品牌网站</title>
@@ -173,8 +173,8 @@ id6:]]></var>
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-22 17:22:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-22 17:22:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="vayrn1hyjvp">
     <title>ZOL壁纸列表</title>
@@ -198,8 +198,8 @@ list{IMGVIEW,MAXW=540,MAXH=960}:<img.*?="(.*?)"   width="120" height="90" alt=""
     <put>1</put>
     <type>GET</type>
     <code>GB2312</code>
-    <lasttime>2020-05-22 17:22:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-22 17:22:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="pokpe1zwpwc">
     <title>蜂鸟图片</title>
@@ -213,8 +213,8 @@ list{IMGVIEW,MAXW=540,MAXH=960}:<img.*?="(.*?)"   width="120" height="90" alt=""
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-22 17:22:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-22 17:22:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="d00aebd825b84316bfc692989e050272">
     <title>HTML-CODE</title>
@@ -226,8 +226,8 @@ list{IMGVIEW,MAXW=540,MAXH=960}:<img.*?="(.*?)"   width="120" height="90" alt=""
     <put>0</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-22 17:22:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-22 17:22:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="651c1be0b2684a13a54d14724bd2eafe">
     <title>回车图片</title>
@@ -245,8 +245,8 @@ list{IMGVIEW,MAXW=540}:a_width="\d+"[\s\S]*?src="(.*?)"#replace=edpic_360_360=ed
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <lasttime>2020-05-22 17:22:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-22 17:22:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
   <Item id="ac66a9003c434bafb975eaaa2e8b4075">
     <title>163资讯</title>
@@ -266,7 +266,7 @@ view{webview}:<div class="post_text" id="endText".*?>([\s\S]*?)<div class="gg200
     <put>1</put>
     <type>GET</type>
     <code>GB2312</code>
-    <lasttime>2020-05-22 17:22:54</lasttime>
-    <addtime>2020-05-22 17:22:54</addtime>
+    <last_time>2020-05-22 17:22:54</last_time>
+    <add_time>2020-05-22 17:22:54</add_time>
   </Item>
 </Qi>
