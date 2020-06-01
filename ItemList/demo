@@ -253,15 +253,15 @@ view{webview}:playAddr.*?"(.*?)"#prepend=<video controls@"controls" id@"video" s
     <add_time>2020-05-30 11:53:57</add_time>
   </Item>
   <Item id="f4dbe62c8dab4db398fac02dce5c0544">
-    <title>头条视频</title>
+    <title>今日头条</title>
     <url>https://m.toutiao.com/list/</url>
-    <var><![CDATA[tag:video
+    <var><![CDATA[tag:(news_hot,video,__all__)
 ac:wap
 count:20
 format:json_raw
 as:A1458E9DD4CC28A
 cp:5ED4CC32789AEE1
-rnd:(1-10)]]></var>
+rnd:(1-5)]]></var>
     <head/>
     <text><![CDATA[标题{BW=75,size=16,line=6}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}|NO1NE{open}
 "title": "(.*?)".*?"large_image_url": "(.*?)".*?"source_url": "(.*?)"
@@ -276,7 +276,7 @@ view{webview}:"content".*?"(.*?)",#json#]]></open>
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <last_time>2020-06-01 17:32:17</last_time>
+    <last_time>2020-06-01 17:45:47</last_time>
     <add_time>2020-06-01 17:03:17</add_time>
   </Item>
 </Qi>
