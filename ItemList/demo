@@ -233,4 +233,23 @@ view{videoview,play}:"mobileUrl".*?"(.*?)"]]></open>
     <last_time>2020-05-29 17:50:38</last_time>
     <add_time>2020-05-29 16:08:41</add_time>
   </Item>
+  <Item id="4368de0c2ca7489d9e5279a2b461d80b">
+    <title>抖音热门视频</title>
+    <url>https://creator.douyin.com/aweme/v1/creator/data/billboard/</url>
+    <var><![CDATA[billboard_type:4]]></var>
+    <head/>
+    <text><![CDATA[图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}|NONE{open}|标题{BW=75,size=16,line=6}
+"img_url":"(.*?)".*?"link":"(.*?)".*?"title":"(.*?)"
+1:json,link,imgview
+2:json,link
+3:json]]></text>
+    <open><![CDATA[style:*{margin:0;padding:0;}video{width:100%;height:auto;background:#000;}
+script:document.getElementById('video').play();alert('123');
+view{webview}:playAddr.*?"(.*?)"#prepend=<video controls@"controls" id@"video" src@",append=" preload>#]]></open>
+    <put>1</put>
+    <type>GET</type>
+    <code>自动获取</code>
+    <last_time>2020-06-01 16:12:03</last_time>
+    <add_time>2020-05-30 11:53:57</add_time>
+  </Item>
 </Qi>
