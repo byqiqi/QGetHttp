@@ -263,7 +263,7 @@ as:A1458E9DD4CC28A
 cp:5ED4CC32789AEE1
 rnd:(1-5)]]></var>
     <head/>
-    <text><![CDATA[标题{BW=75,size=16,line=6}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}|NO1NE{open}
+    <text><![CDATA[标题{BW=75,size=16,line=6}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}|NONE{open}
 "title": "(.*?)".*?"large_image_url": "(.*?)".*?"source_url": "(.*?)"
 1:json
 2:json,link,imgview
