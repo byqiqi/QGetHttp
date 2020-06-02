@@ -59,16 +59,36 @@ list{IMGVIEW,MAXW=500,PADDING=10=10=10}:<a href=".*?"><img src="(.*?)".*?></a>#l
     <last_time>2020-05-27 11:45:12</last_time>
     <add_time>2020-05-27 11:39:32</add_time>
   </Item>
+  <Item id="918f988792244ca390b58451438e8806">
+    <title>163视频</title>
+    <url>https://3g.163.com/touch/nc/api/video/recommend/Video_Recom/(0,10,20,30,40)-10.do</url>
+    <var/>
+    <head><![CDATA[Cookie:_ntes_nuid=8ef498aada3bafb6269b6158646e2b4e]]></head>
+    <text><![CDATA[标题{BW=75,size=16,line=6}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}|NONE{OPEN}
+"title":"(.*?)".*?"cover":"(.*?)".*?"vid":"(.*?)",
+1:json
+2:link,imgview
+3:prepend=https://3g.163.com/v/video/,append=.html]]></text>
+    <open><![CDATA[style:video{width:100%;height:auto;background:#000;}
+view{videoview}:<source src="(.*?)">
+view{size=25,font=bold,line=6,color=333333,padding=3=6=3=6}:<h1.*?>(.*?)</h1>#nohtml#
+view{size=16,color=777777,line=15,padding=3=6=3=15}:<div class="detail">([\s\S]*?)</div>#ireplace=[\r\n\t\s]*,replace=</strong>=    ,nohtml#]]></open>
+    <put>1</put>
+    <type>GET</type>
+    <code>自动获取</code>
+    <last_time>2020-06-02 14:42:54</last_time>
+    <add_time>2020-05-29 15:47:47</add_time>
+  </Item>
   <Item id="4de0f0f8b2d44b2e8b2d94499c89e451">
-    <title>163推荐新闻</title>
-    <url>https://3g.163.com/touch/#/recommend</url>
+    <title>163新闻</title>
+    <url>https://3g.163.com/touch/reconstruct/article/list/BBM54PGAwangning/(0,10,20,30,40)-10.html</url>
     <var/>
     <head/>
-    <text><![CDATA[NONE{OPEN}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}|标题{BW=75,size=16,line=6}
-"link":"(.*?)",.*?"url":"(.*?)",.*?"title":"(.*?)",
-1:link
-2:link,imgview,append=?imageView&thumbnail@160y80
-3:json]]></text>
+    <text><![CDATA[标题{BW=75,size=16,line=6}|NONE{OPEN}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}
+"title":"(.*?)",.*?"url":"(.*?)",.*?"imgsrc":"(.*?)",
+1:json
+2:link
+3:link,imgview]]></text>
     <open><![CDATA[code:utf-8
 style:img{display:block;max-width:96%;margin:0 auto;}video{width:100%;height:auto;background:#000;}*{font-size:18px;line-height:1.8em;color:#555;}ol, ul, li {list-style: none;margin:0;padding:0;}table {overflow-x: auto;width: 100%;border-spacing: 0;text-align: center;border-top: 1px solid #e6e6e6;border-left: 1px solid #e6e6e6;}table p {margin: 0;padding: 0;}table td {padding: 0;border-right: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;}table th {border-color: #e9e9e9;border-right: 1px solid #343434;border-bottom: 1px solid #343434;background-color: #eeeeee;}.info *,.source{font-size:16px;color:#888;font-weight:300;margin-right:10px;}
 html:padding=6=8=6=8
@@ -78,8 +98,30 @@ view{webview}:(0)(<div class="content">|<video class="main_video"|<ul class="pho
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <last_time>2020-05-27 11:31:25</last_time>
-    <add_time>2020-05-27 10:28:36</add_time>
+    <last_time>2020-06-02 14:19:32</last_time>
+    <add_time>2020-05-29 11:55:20</add_time>
+  </Item>
+  <Item id="931326d4a39e4f4b85ba57fdc48c6aa3">
+    <title>163图片</title>
+    <url>https://3g.163.com/photocenter/api/list/0001/00AN0001,00AO0001/0/100/cache_00AN0001_00AO0001.json</url>
+    <var/>
+    <head/>
+    <text><![CDATA[标题{BW=75,size=16,line=6}|NONE{OPEN}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=0=8=4=0}
+"setname":"(.*?)".*?"seturl":"(.*?)".*?"tcover":"(.*?)"
+1:json
+2:link
+3:link,imgview]]></text>
+    <open><![CDATA[code:gbk
+html:padding=6=8=6=8
+view{size=25,font=bold,line=6,color=333333,padding=3=6=3=6}:<h1>([\s\S]*?)</h1>
+view{size=16,color=777777,line=15,padding=10=6=6=6}:<div class="headline">[\s\S]*?<span>[\r\n\t\s]*(.*?)[\r\n\t\s]*</span>
+view{size=18,color=555555,line=5,padding=10=6=6=6}:<div class="overview">(.*?)</div>#nohtml#
+list{IMGVIEW,MAXW=500,PADDING=10=10=10}:<a class="setlist-item".*?>[\r\n\t\s]*<img src="(.*?)\?imageView]]></open>
+    <put>1</put>
+    <type>GET</type>
+    <code>自动获取</code>
+    <last_time>2020-06-02 14:19:39</last_time>
+    <add_time>2020-06-02 13:45:58</add_time>
   </Item>
   <Item id="da3f21b2b604489a8e7933cd526fd863">
     <title>114手机资讯</title>
