@@ -348,4 +348,28 @@ view{size=18,line=12,color=555555,padding=3=10=3=0}:<p class="desc">([\s\S]*?)</
     <last_time>2020-06-02 17:29:05</last_time>
     <add_time>2020-06-02 16:51:45</add_time>
   </Item>
+  <Item id="ac15816e4db14ebabee1a59524d24d11">
+    <title>Hao123视频</title>
+    <url>http://m.hao123.com/video/feed</url>
+    <var><![CDATA[channel_id:99
+page:(1-3)
+size:20]]></var>
+    <head/>
+    <text><![CDATA[标题{BW=75,size=16,line=6}|NONE{OPEN}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}
+"title":"(.*?)".*?"url":"(.*?)".*?"cover_src":"(.*?)",
+1:json
+2:json
+3:json,link,imgview]]></text>
+    <open><![CDATA[html:padding=10=10=10=10
+style:video{width:100%;height:auto;background:#000;}
+view{size=25,font=bold,line=6,color=333333,padding=0=3=3=6}:<h1.*?>(.*?)</h1>#nohtml#
+view{size=16,color=777777,line=15,padding=3=6=3=15}:<div class='video_data'>(.*?)<div id="about_copy">#replace=</div>=  ,nohtml#
+view{videoview,play}:<source type="video/mp4" src="(.*?)"
+view{size=18,line=12,color=555555,padding=3=10=3=0}:<p class="desc">([\s\S]*?)</p>]]></open>
+    <put>1</put>
+    <type>GET</type>
+    <code>自动获取</code>
+    <last_time>2020-06-02 17:48:22</last_time>
+    <add_time>2020-06-02 17:38:58</add_time>
+  </Item>
 </Qi>
