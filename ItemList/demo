@@ -326,4 +326,26 @@ view{webview}:"content".*?"(.*?)",#json#]]></open>
     <last_time>2020-06-01 17:45:47</last_time>
     <add_time>2020-06-01 17:03:17</add_time>
   </Item>
+  <Item id="be9fe22eca1844d2867868e53a69d305">
+    <title>哔哩哔哩</title>
+    <url>https://m.bilibili.com</url>
+    <var/>
+    <head/>
+    <text><![CDATA[NONE{OPEN}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}|标题{BW=75,size=16,line=6}
+"bvid":"(.*?)".*?"pic":"(.*?)".*?"title":"(.*?)",
+1:prepend=https://m.bilibili.com/video/
+2:append=\u0040180w_80h_1c_95q,json,link,imgview
+3:json]]></text>
+    <open><![CDATA[html:padding=10=10=10=10
+style:video{width:100%;height:auto;background:#000;}
+view{size=25,font=bold,line=6,color=333333,padding=0=3=3=6}:<h1.*?>(.*?)</h1>#nohtml#
+view{size=16,color=777777,line=15,padding=3=6=3=15}:<span class="view">([\s\S]*?)</div>#ireplace=[\r\n\t\s]*,replace=</span>=    ,nohtml#
+view{videoview,play}:video_url.*?'(.*?)'#link#
+view{size=18,line=12,color=555555,padding=3=10=3=0}:<p class="desc">([\s\S]*?)</p>]]></open>
+    <put>1</put>
+    <type>GET</type>
+    <code>自动获取</code>
+    <last_time>2020-06-02 17:29:05</last_time>
+    <add_time>2020-06-02 16:51:45</add_time>
+  </Item>
 </Qi>
