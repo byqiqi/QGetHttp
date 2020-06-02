@@ -104,14 +104,18 @@ view{webview}:(0)<div class="txtwarp artbody".*?>([\s\S]*?)<div class="pageBtn">
   </Item>
   <Item id="ae78add494b64dc28ec5b46951dc34c5">
     <title>SOHU新闻</title>
-    <url>https://v2.sohu.com/integration-api/mix/region/(80,90)</url>
-    <var><![CDATA[size:50
-page:1]]></var>
+    <url>http://search.sohu.com/search/meta</url>
+    <var><![CDATA[keyword:
+terminalType:pc
+spm-pre:
+searchType:news
+size:10
+from:(0,10,20,30,40,50)]]></var>
     <head/>
     <text><![CDATA[标题{BW=75,size=16,line=6}|NONE{OPEN}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=0=8=4=0}
 "title":"(.*?)".*?"url":"(.*?)".*?"cover":"(.*?)"
 1:json
-2:link,replace=v2.sohu.com=m.sohu.com
+2:link
 3:link,imgview]]></text>
     <open><![CDATA[style:img{display:block;max-width:96%;margin:0 auto;}video{width:100%;height:260px;}*{font-size:18px;line-height:1.8em;color:#555;}ol, ul, li {list-style: none;margin:0;padding:0;}table {overflow-x: auto;width: 100%;border-spacing: 0;text-align: center;border-top: 1px solid #e6e6e6;border-left: 1px solid #e6e6e6;}table p {margin: 0;padding: 0;}table td {padding: 0;border-right: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;}table th {border-color: #e9e9e9;border-right: 1px solid #343434;border-bottom: 1px solid #343434;background-color: #eeeeee;}.infos-wrapper *{font-size:16px;color:#888;margin-right:5px;}
 html:padding=6=8=6=8
@@ -121,8 +125,8 @@ view{webview}:(0)<div class="display-content">([\s\S]*?)</div>#replace=href=data
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <last_time>2020-05-27 11:30:43</last_time>
-    <add_time>2020-05-27 10:28:36</add_time>
+    <last_time>2020-06-02 11:58:11</last_time>
+    <add_time>2020-05-29 11:55:20</add_time>
   </Item>
   <Item id="621385ae2a554506a2ddf2c963d34d96">
     <title>SOHU图片</title>
