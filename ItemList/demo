@@ -69,14 +69,15 @@ list{IMGVIEW,MAXW=500,PADDING=10=10=10}:<a href=".*?"><img src="(.*?)".*?></a>#l
 1:json
 2:link,imgview
 3:prepend=https://3g.163.com/v/video/,append=.html]]></text>
-    <open><![CDATA[style:video{width:100%;height:auto;background:#000;}
-view{videoview}:<source src="(.*?)">
-view{size=25,font=bold,line=6,color=333333,padding=3=6=3=6}:<h1.*?>(.*?)</h1>#nohtml#
-view{size=16,color=777777,line=15,padding=3=6=3=15}:<div class="detail">([\s\S]*?)</div>#ireplace=[\r\n\t\s]*,replace=</strong>=    ,nohtml#]]></open>
+    <open><![CDATA[html:padding=10=10=10=10
+style:video{width:100%;height:auto;background:#000;}
+view{size=25,font=bold,line=6,color=333333,padding=0=3=3=6}:<h1.*?>(.*?)</h1>#nohtml#
+view{size=16,color=777777,line=15,padding=3=6=3=15}:<div class="detail">([\s\S]*?)</div>#ireplace=[\r\n\t\s]*,replace=</strong>=    ,nohtml#
+view{videoview,play}:<source src="(.*?)">]]></open>
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <last_time>2020-06-02 14:42:54</last_time>
+    <last_time>2020-06-02 15:51:58</last_time>
     <add_time>2020-05-29 15:47:47</add_time>
   </Item>
   <Item id="4de0f0f8b2d44b2e8b2d94499c89e451">
