@@ -407,4 +407,24 @@ view{size=18,line=12,color=555555,padding=3=10=3=0}:<p class="desc">([\s\S]*?)</
     <last_time>2020-06-02 17:48:22</last_time>
     <add_time>2020-06-02 17:38:58</add_time>
   </Item>
+  <Item id="b9e17af086a34add8d347f8973cab6ac">
+    <title>腾讯游戏资讯</title>
+    <url>https://feeds.qq.com/gameRefresh</url>
+    <var><![CDATA[pageSize:10
+pageNo:(1-10)]]></var>
+    <head/>
+    <text><![CDATA[图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}|标题{BW=75,size=16,line=6}|NONE{OPEN}
+"image":"(.*?)","title":"(.*?)",.*?"jumpUrl":"(.*?)"
+1:link,imgview]]></text>
+    <open><![CDATA[style:img{display:block;max-width:96%;margin:0 auto;}video{width:100%;height:260px;}*{font-size:18px;line-height:1.8em;color:#555;}ol, ul, li {list-style: none;margin:0;padding:0;}table {overflow-x: auto;width: 100%;border-spacing: 0;text-align: center;border-top: 1px solid #e6e6e6;border-left: 1px solid #e6e6e6;}table p {margin: 0;padding: 0;}table td {padding: 0;border-right: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;}table th {border-color: #e9e9e9;border-right: 1px solid #343434;border-bottom: 1px solid #343434;background-color: #eeeeee;}.imgInArticle{padding:0!important;}
+html:padding=6=8=6=8
+view{size=25,font=bold,line=6,color=333333,padding=3=6=3=6}:<h1.*?>(.*?)</h1>
+view{size=16,color=777777,padding=0=6}:<div class="middle">([\s\S]*?)</div>#ireplace=[\r\n\t\s]*,replace=</span>=    ,prepend=  ,nohtml#
+view{webview}:<article.*?>([\s\S]*?)</article>#replace=href=data-href#]]></open>
+    <put>1</put>
+    <type>GET</type>
+    <code>自动获取</code>
+    <last_time>2020-06-03 16:08:54</last_time>
+    <add_time>2020-06-03 15:57:53</add_time>
+  </Item>
 </Qi>
