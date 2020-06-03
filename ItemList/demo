@@ -298,6 +298,24 @@ view{webview}:playAddr.*?"(.*?)"#prepend=<video controls@"controls" id@"video" s
     <last_time>2020-06-03 09:50:59</last_time>
     <add_time>2020-05-30 11:53:57</add_time>
   </Item>
+  <Item id="4e78bee5c8234a58b9bb67e44948e164">
+    <title>火山热门视频</title>
+    <url>https://creator.huoshan.com/aweme/v1/creator/data/billboard/</url>
+    <var><![CDATA[billboard_type:11]]></var>
+    <head/>
+    <text><![CDATA[图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}|NONE{open}|标题{BW=75,size=16,line=6}
+"img_url":"(.*?)".*?"link":"(.*?)".*?"title":"(.*?)"
+1:json,link,imgview
+2:json,replace=https://share.huoshan.com/pages/item/index.html=https://share.huoshan.com/api/item/info
+3:json]]></text>
+    <open><![CDATA[style:*{margin:0;padding:0;}video{width:100%;height:auto;background:#000;}
+view{webview}:"url".*?"(.*?)"#prepend=<video controls@"controls" id@"video" src@",append=" preload>#]]></open>
+    <put>1</put>
+    <type>GET</type>
+    <code>自动获取</code>
+    <last_time>2020-06-03 10:56:58</last_time>
+    <add_time>2020-06-03 10:50:00</add_time>
+  </Item>
   <Item id="d8b9e95b3b07473598e6ba37a3729e70">
     <title>美拍热门视频</title>
     <url>http://www.meipai.com/medias/hot</url>
