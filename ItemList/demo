@@ -291,23 +291,40 @@ view{videoview,play}:"mobileUrl".*?"(.*?)"]]></open>
 2:json,link
 3:json]]></text>
     <open><![CDATA[style:*{margin:0;padding:0;}video{width:100%;height:auto;background:#000;}
-script:document.getElementById('video').play();alert('123');
 view{webview}:playAddr.*?"(.*?)"#prepend=<video controls@"controls" id@"video" src@",append=" preload>#]]></open>
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <last_time>2020-06-01 16:12:03</last_time>
+    <last_time>2020-06-03 09:50:59</last_time>
     <add_time>2020-05-30 11:53:57</add_time>
+  </Item>
+  <Item id="d8b9e95b3b07473598e6ba37a3729e70">
+    <title>美拍热门视频</title>
+    <url>http://www.meipai.com/medias/hot</url>
+    <var><![CDATA[p=(1-5)]]></var>
+    <head><![CDATA[User-Agent:Mozilla/5.0 (Windows NT 6.1; WOW64)]]></head>
+    <text><![CDATA[NONE{OPEN}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}|标题{BW=75,size=16,line=6}
+<div id="w(\d+)".*?>[\s\S]*?<img src="(.*?)".*?class="db pa pai" alt="([\s\S]*?)"
+<div class="f-video js-play"[\s\S]*?data-id="(.*?)"[\s\S]*?<img src="(.*?)".*?alt="([\s\S]*?)">
+1:json,prepend=http://www.meipai.com/media/
+2:json,link,replace=thumb320=thumb120,imgview
+3:json,ireplace=#.*?#=]]></text>
+    <open><![CDATA[style:*{margin:0;padding:0;}video{width:100%;height:auto;background:#000;}
+view{webview}:"video".*?"(.*?)"#prepend=<video controls@"controls" id@"video" src@",append=" preload>#]]></open>
+    <put>1</put>
+    <type>GET</type>
+    <code>自动获取</code>
+    <last_time>2020-06-03 09:51:23</last_time>
+    <add_time>2020-06-02 17:52:53</add_time>
   </Item>
   <Item id="f4dbe62c8dab4db398fac02dce5c0544">
     <title>今日头条</title>
     <url>https://m.toutiao.com/list/</url>
-    <var><![CDATA[tag:(news_hot,video,__all__)
+    <var><![CDATA[tag:(video,__all__)
 ac:wap
 count:20
 format:json_raw
 as:A1458E9DD4CC28A
-cp:5ED4CC32789AEE1
 rnd:(1-5)]]></var>
     <head/>
     <text><![CDATA[标题{BW=75,size=16,line=6}|图片{BW=25,IMGBW=25,IMGH=80,IMGPADDING=4=8=0=0}|NONE{open}
@@ -323,7 +340,7 @@ view{webview}:"content".*?"(.*?)",#json#]]></open>
     <put>1</put>
     <type>GET</type>
     <code>自动获取</code>
-    <last_time>2020-06-01 17:45:47</last_time>
+    <last_time>2020-06-03 09:45:47</last_time>
     <add_time>2020-06-01 17:03:17</add_time>
   </Item>
   <Item id="be9fe22eca1844d2867868e53a69d305">
